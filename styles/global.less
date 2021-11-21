@@ -1,0 +1,314 @@
+body {
+  font-size: 14px;
+  background-color: white !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.ant-picker-active-bar,
+.ant-picker-range-arrow {
+  transition: none !important;
+}
+
+svg {
+  vertical-align: initial !important;
+}
+
+input[type='date'] {
+  min-height: 2.5rem;
+}
+
+.ant-layout {
+  background-color: inherit !important;
+}
+
+.ant-input[disabled] {
+  color: inherit;
+  opacity: 0.85 !important;
+}
+
+// Modal
+.ant-modal-header {
+  text-align: center;
+}
+.ant-modal-content {
+  background: #f2f2f2;
+}
+.ant-modal-footer {
+  padding: 0 24px 24px;
+}
+
+nav {
+  #menu-link {
+    li {
+      list-style-type: none;
+      margin: 0 1vw;
+      .sign-in {
+        margin-right: 0 !important;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+      a {
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #f47606;
+        padding: 0.45rem 0;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+bold {
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+  &-orange {
+    border: 1px solid #e57715 !important;
+    border-radius: 9999px !important;
+    color: #e57715 !important;
+  }
+}
+
+.btn-status {
+  border-radius: 9999px;
+
+  &-orange {
+    border: 1px solid #e57715;
+    background-color: #e57715;
+    color: white !important;
+  }
+  &-soldout,
+  &-unavailable {
+    border: 1px solid #8d8d8d;
+    background-color: #8d8d8d;
+    color: white !important;
+  }
+}
+
+.bg-search {
+  &-airport {
+    background: #dca77b url('/staticmyapp/bg-search-airport.svg') no-repeat;
+    background-size: cover;
+  }
+  &-city {
+    background: #c2ccd0 url('/staticmyapp/bg-search-city.svg') no-repeat;
+    background-size: cover;
+  }
+  &_city {
+    background: #c2ccd0 url('/staticmyapp/bg-search-city.svg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.bg-about {
+  background: url('/staticmyapp/bg-about.png') no-repeat;
+  background-size: cover;
+}
+
+.bg-membership {
+  background: url('/staticmyapp/bg-membership.png') no-repeat;
+  background-size: cover;
+}
+
+.bg-partner {
+  background: url('/staticmyapp/bg-partner.png') no-repeat;
+  background-size: cover;
+}
+
+.ant-list-item {
+  border-bottom-color: inherit !important;
+}
+
+.search-switch {
+  background: rgba(0, 0, 0, 0.25);
+  height: 40px;
+  border-radius: 90px;
+  padding: 5px 44px;
+  max-width: 228px;
+  text-align: center;
+  @apply w-full flex flex-row items-center justify-center !important;
+  li {
+    @apply rounded-full !important;
+    button {
+      width: 114px;
+      height: 40px;
+    }
+    &.active {
+      .ant-btn {
+        background: #f47606;
+        border: 1px solid #f47606;
+        @apply rounded-full !important;
+      }
+
+      a {
+        color: #fff;
+      }
+    }
+    a {
+      @apply text-gray-900 block uppercase;
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+  }
+}
+
+.divider-text {
+  &:before {
+    position: absolute;
+    content: '';
+    border-bottom: 1px solid #ddd;
+    width: 70px;
+    left: 0;
+  }
+  &:after {
+    position: absolute;
+    content: '';
+    border-bottom: 1px solid #ddd;
+    width: 70px;
+    right: 0;
+  }
+}
+
+/* Override base SVG style to work with Ant Design */
+
+.logo {
+  background: url('/staticmyapp/logo-registred.svg') no-repeat;
+  width: 115px;
+  height: 60px;
+  margin-right: auto;
+  display: flex;
+}
+
+.search {
+  background: url('https://www.onairparking.com/assets/public/image/jpg/banner_1.jpg')
+    no-repeat;
+  background-size: cover;
+  height: calc(100vh - 64px);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  form {
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: auto !important;
+  }
+}
+
+.ant-select-selector {
+  border: none !important;
+}
+
+#checkIn.ant-input {
+  padding: 0 23px;
+}
+
+.btn-sort {
+  &.active {
+    span {
+      color: #ff962e;
+      text-decoration: underline;
+    }
+  }
+}
+
+.rounded-bl-90 {
+  border-bottom-left-radius: 90px;
+}
+
+.text-roboto-bold-14 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.text-roboto-14 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.color-orange {
+  color: #e57715;
+}
+
+.bg-clear-orange {
+  background: #fef3eb;
+}
+
+.ant-collapse-arrow {
+  color: #e57715;
+}
+
+.ant-collapse-terms {
+  .ant-collapse-header {
+    align-items: flex-start;
+    .ant-collapse-arrow {
+      margin-top: 4px;
+    }
+  }
+}
+
+.ant-layout-footer {
+  background-color: #e5e5e5 !important;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active {
+  font-weight: 500;
+  @apply bg-primary border border-primary !important;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.ant-picker-content {
+  .ant-picker-time-panel-column:nth-child(2n),
+  .ant-picker-time-panel-column:nth-child(3n) {
+    overflow: unset;
+  }
+}
+
+input[type='date'],
+select {
+  -webkit-appearance: none;
+}
+
+.ribbon {
+  right: -10px;
+}
+
+.ribbon::after {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  display: block;
+  border: 5px solid #ad5e15;
+}
+
+/* top right*/
+.ribbon-top-right::before,
+.ribbon-top-right::after {
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+.ribbon-top-right::before {
+  top: 0;
+  left: 0;
+}
+.ribbon-top-right::after {
+  bottom: -10px;
+  right: 0;
+  transform: rotate(90deg);
+}
