@@ -8,17 +8,19 @@ This is a simple frontend test for the Frontend Junior Developer position at [On
 
 ## The problem
 
-You need to create a coupon page with some coupons that will be shared by our users. You can found the design at **design** directory in this repository.
+You need to create a coupon page with some coupons that will be shared by our users. You can find the design at **design** directory in this repository.
 
 ## The solution
 
 - Fork this repository: [onairparking-frontend-test](https://github.com/devopsnoson/onairparking-frontend-test)
+- See the recommentations
 - After the implementation Create a Pull Request
 - Any doubts please contact the owner of this repository or the people that are interviewing you.
 
 ## Recommendations
 
 - We use [tailwindcss](https://tailwindcss.com) for styling, grid, space, font-size, font-weight, etc. and [ant.design](https://ant.design) for components. Sometimes we create a component with tailwind and ant.design.
+- Think in componentization.
 - Worry about the UX and UI of the design.
 - Use Git with good commit messages.
 - We use [mobX](https://mobx.com) for state management. But for this test use only React Hooks if necessary.
