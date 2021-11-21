@@ -8,7 +8,7 @@ This is a simple frontend test for the Frontend Junior Developer position at [On
 
 ## The problem
 
-You need to create a coupom page with some coupoms that will be shared by our users. You can found the design at **design** directory in this repository.
+You need to create a coupon page with some coupons that will be shared by our users. You can found the design at **design** directory in this repository.
 
 ## The solution
 
