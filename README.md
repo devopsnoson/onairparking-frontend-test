@@ -12,9 +12,9 @@ You need to create a coupon page with some coupons that will be shared by our us
 
 ## The solution
 
-- Fork this repository: [onairparking-frontend-test](https://github.com/devopsnoson/onairparking-frontend-test)
+- Clone this repository: [onairparking-frontend-test](https://github.com/devopsnoson/onairparking-frontend-test)
 - See the recommentations
-- After the implementation Create a Pull Request
+- After the implementation create a **zip file** and send to the email that you received about the test.
 - Any doubts please contact the owner of this repository or the people that are interviewing you.
 
 ## Recommendations
