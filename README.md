@@ -23,5 +23,5 @@ You need to create a coupon page with some coupons that will be shared by our us
 - Think in componentization.
 - Worry about the UX and UI of the design.
 - Use Git with good commit messages.
-- We use [mobX](https://mobx.com) for state management. But for this test use only React Hooks if necessary.
+- We use [mobX](https://mobx.js.org/README.html) for state management. But for this test use only React Hooks if necessary.
 - For development use the command `npm run devproxy`.
